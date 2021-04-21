@@ -1,7 +1,7 @@
 $(function(){
-    $('itim').hover(function(){
-        $('itim1').css('width','200px').css('height','200px').css('background-clor','yellow');
-    },function(){
-        $('itim1').css('background-color','black')
-    })
+    $('ala').click(function(){
+        $('ala2').css('background-color','green');
+    }).blur(function(){
+        $('ala2').css('background-color','gray');
+    });
 });
