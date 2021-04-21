@@ -1,3 +1,3 @@
-$(function(){
-    alert('olha');
+$(window).on('load',function(){
+    alert('olá mundo!');
 });
