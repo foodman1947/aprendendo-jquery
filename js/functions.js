@@ -1,3 +1,3 @@
-$(window).on('load',function(){
-    alert('olá mundo!');
-});
+window.onload = function(){
+    alert('aló')
+}
